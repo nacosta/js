@@ -13,7 +13,7 @@ node1:
     ports:
         - "8080"
 node2:
-    image: node
+    image: nacosta/nodejs
     links:
         - redis
     ports:
