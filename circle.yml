@@ -4,7 +4,7 @@ machine:
 
 dependencies:
     override:
-        - sudo pip install -U docker-compose<1.5
+        - sudo pip install -I docker-compose<=1.4
 
 test:
     override:
